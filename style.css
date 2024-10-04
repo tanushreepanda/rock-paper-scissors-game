@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.choices{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+img{
+    width: 61%;
+    height: 24vh;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    background: black;
+    color: white;
+}
+.score_board{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 80px;
+}
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 13px;
+    border-radius: 17px;
+}
