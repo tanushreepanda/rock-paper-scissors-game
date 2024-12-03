@@ -27,6 +27,12 @@ img{
     height: 24vh;
     border-radius: 50%;
 }
+@media screen and (max-width: 680px) {
+    img {
+        height: 13vh;
+    }
+}
+
 h1{
     text-align: center;
     background: black;
@@ -48,4 +54,9 @@ h1{
     font-size: 25px;
     padding: 13px;
     border-radius: 17px;
+}
+@media screen and (max-width: 680px){
+    #msg {
+        font-size: 18px;
+    }
 }
